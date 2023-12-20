@@ -1,0 +1,148 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+* { 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 22px;
+  background: -webkit-linear-gradient(#fb6fae,  #62cff4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+
+}
+body {
+    background: #060061;
+    background: -webkit-linear-gradient(to right, #060061, #7927a5, #fb6fae);
+    background: linear-gradient(to right, #060061, #7927a5, #fb6fae); 
+  font: 16px "Helvetica Neue";
+  font-weight: 200;
+  letter-spacing: 1.5px;
+}
+
+.container {
+  width: 500px;
+  background-image: url(https://subtlepatterns.com/patterns/lightpaperfibers.png);
+  background-color: #fff;
+  margin: 40px auto auto;
+  padding: 8px 0 20px 0;
+  border-radius: 4px;
+  -webkit-box-shadow:  1px 1px 2px 0px rgba(155, 155, 155, .75);      
+  box-shadow:  1px 1px 2px 0px rgba(155, 155, 155, .75);
+
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  align-items: center;
+
+ 
+}
+.main{
+    display: flex;
+    float: left;
+}
+
+.form-item {
+  margin: 18px auto;
+  border-bottom: 1px solid #62cff4;
+  overflow: hidden;
+  width: 38%;
+}
+.form-item-2 {
+    margin: 18px auto;
+    border-bottom: 1px solid #62cff4;
+    overflow: hidden;
+    width: 38%;
+   
+
+  }
+  .form-item-3 {
+    margin: 18px auto;
+    border-bottom: 1px solid #62cff4;
+    overflow: hidden;
+    width: 89%;
+  }
+  
+
+label {
+  float: left;
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+input {
+  float: left;
+  width: 89%;
+  padding: 0 0 6px 0;
+  background-color: #fff;
+  color: #000;
+  font: 16px "Helvetica Neue";
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  outline: none;
+  border: none;
+  
+}
+input:hover{
+  background: -webkit-linear-gradient(#fb6fae,  #62cff4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+input::-webkit-input-placeholder {
+  padding: 0;
+  color: #000;
+  font-weight: 200;
+}
+input:-moz-placeholder {
+  color: #000;
+  font-weight: 200;
+}
+input:-ms-input-placeholder {
+  color:#000;
+  font-weight: 200;
+}
+
+.button {
+background: #060061;
+background: -webkit-linear-gradient(to right, #060061, #7927a5, #fb6fae);
+background: linear-gradient(to right, #060061, #7927a5, #fb6fae); 
+color: #fff;
+width: 25%;
+margin: 30px auto auto;
+padding:10px;
+border: 1px solid black;
+margin-left: 70px ;
+text-align: center;
+-webkit-transition: all 150ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+-moz-transition: all 150ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+-ms-transition: all 150ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+-o-transition: all 150ms cubic-bezier(0.420, 0.000, 1.000, 1.000); 
+transition: all 150ms cubic-bezier(0.420, 0.000, 1.000, 1.000); /* ease-in */
+}
+
+.btn-title {
+  margin: auto;
+  
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
